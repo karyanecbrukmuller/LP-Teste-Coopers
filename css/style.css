@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&family=Mulish:wght@700&family=Poppins:wght@400;600&display=swap');
+
+html, body, h2, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body .box-container{
+    max-width: 1440px;
+    min-height: 2972px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-container header section .flex-container{
+    display: flex; 
+    height: 758px;
+    padding-left: 80px; 
+}
+
+.box-container header section .flex-container .flex-item.left{
+    width: 50%;
+    margin-top: 54px;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description{
+    margin-top: 104px;
+    line-height: 64px;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description .sub-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #4AC959;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description .description{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description .call-to-action{
+    width: 300px;
+    height: 64px;
+    margin-top: 70px;
+    border-radius: 10px;
+    background: #4AC959;
+    display: flex;
+}
+
+.box-container header section .flex-container .flex-item.left .web-site-description .call-to-action a{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.box-container header section .flex-container .flex-item.right{
+    width: 50%;
+    margin-top: 24px;
+    background: url("../images/background-coopers.svg") top right no-repeat;
+    text-align: right;
+    z-index: 1000;
+}
+
+.box-container header section .flex-container .flex-item.right img{
+    margin: 132px 80px 0 0;
+}
+
+.box-container header section .flex-container .icone-scroll a img{
+    position: absolute;
+    /*position: fixed;*/
+    z-index: 1000;
+    top: 688px;
+    left: 941px;
+}
+
+.box-container main .principal{
+    height: 375px;
+    background: #000000;
+    transform: skewY(-3deg);
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.box-container main .principal .diagonal-box .content-box h2{
+    width: 302px;    
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 60px;
+    padding-top: 80px;
+    transform: skewY(3deg);
+    border-bottom: 4px solid #4AC959;
+    margin: auto;
+    padding: auto;
+}
+
+.box-container main .principal .diagonal-box .content-box p{
+    width: 600px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    transform: skewY(4deg);
+    padding-top: 45px;
+    margin: auto;
+    padding: auto;
+}
+
+.box-container main .flex-container-plans{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 90px 0; 
+    background: url("../images/grafismos-lateral-esquerda.svg") top left no-repeat;
+}
+
+.box-container main .flex-container-plans .plan{
+    width: 380px;
+    height: 621px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 4px 60px 0px #42424233;
+    border-top: 20px solid #4AC959;
+    padding-top: 40px;
+}
+
+.box-container main .flex-container-plans .plan.basic{
+    margin-right: 33px;
+}
+
+.box-container main .flex-container-plans .description-plan .value{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.box-container main .flex-container-plans .description-plan p{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box-container main .flex-container-plans .description-plan p.title{
+    padding-top: 10px;
+}
+
+.box-container main .flex-container-plans .description-plan p.sub-title{
+    padding-bottom: 34px;
+}
+
+.box-container main .flex-container-plans .itens-plan ul{
+    padding-left: 30px;
+    margin: 0 0 33px 0;
+}
+
+.box-container main .flex-container-plans .itens-plan ul li{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: start;
+    list-style: none;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.box-container main .flex-container-plans .itens-plan ul li.icone-positivo:before{
+    content: url("../images/icone-positivo.svg");
+    margin-right: 20px;
+}
+
+.box-container main .flex-container-plans .itens-plan ul li.icone-negativo:before{
+    content: url("../images/icone-negativo.svg");
+    margin-right: 20px;
+}
+
+.box-container main .flex-container-plans .plan .button{
+    width: 300px;
+    height: 64px;
+    border-radius: 10px;
+    background: #000000;
+    display: flex;
+    margin: auto;
+}
+
+.box-container main .flex-container-plans .plan .button a{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.box-container main .good-things{
+    height: 700px;
+    background: url("../images/background-good-things.svg") 140px 0px no-repeat;
+}
+
+.box-container main .good-things .title h2{
+    height: 150px;
+    padding-left: 240px;
+    padding-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center{
+    min-height: 800px;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 220px;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel{
+    display: flex;
+    flex-direction: row;
+    padding: 12px;  
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things{
+    width: 360px;
+    height: 430px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: rgba(189, 189, 189, 0.151) 15px 15px 12px 1px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .block-description{    
+    color: #000000;
+    position: relative;
+    padding-left: 36px;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .block-description .coopers-logo{
+    position: absolute;
+    left: 291px;
+    top: -60px;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .block-description a.button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9499B3;
+    border-radius: 16px;
+    border: 1px solid #9499B3
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .block-description p.description{
+    font-family: 'Montserrat', sans-serif;
+    color: #312F4F;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 16px 30px 0 0;
+}
+
+.box-container main .good-things .carousel.carousel-slider.center .flex-container-carousel .container-good-things .block .block-description a.read-more{
+    font-family: 'Montserrat', sans-serif;
+    color: #4AC959;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 155px;
+}
+
+.box-container main .good-things .carousel .indicators{
+    right: 60px;
+    bottom: 260px;
+}
+
+.box-container main .good-things .carousel .indicators .indicator-item.active{
+    background-color: #4AC959;;
+}
+
+.box-container main .good-things .carousel .indicators .indicator-item{
+    background-color: #C4C4C4;
+    width: 29px;
+    height: 29px;
+    margin-right: 20px;
+}
+
+.box-container main .contact{
+    height: 810px;
+}
+
+.box-container main .contact .form{
+    width: 700px;
+    height: 721px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    box-shadow: 0px 8px 16px 0px #06152B14;
+    background: #FFFFFF;
+    margin-top: 150px;
+    position: relative;
+}
+
+.box-container main .contact .form .img-form{
+    position: absolute;
+    z-index: 1000;
+    top: -100px;
+}
+
+.box-container main .contact .form .background-green{
+    width: 166px;
+    height: 23px;
+    background: #4AC959;
+    margin-left: -140px;
+}
+
+.box-container main .contact .form .form-information{
+    width: 580px;
+    height:60px;
+    display: flex;
+    margin-top: 80px;
+}
+
+.box-container main .contact .form .form-information .submit{
+    padding-left: 24px;
+    width: 166px;
+    height: 58px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.box-container main .contact .form .form-contact{
+    width: 580px;
+    min-height: 474px;
+    margin-top: 40px;
+}
+
+.box-container main .contact .form .form-contact .field label{
+    font-family: 'Montserrat', sans-serif;
+    color: #06152B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-container main .contact .form .form-contact .field input{
+    border: 1px solid #06152B;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.box-container main .contact .form .form-contact .field textarea{
+    width: 580px;
+    height: 130px;
+    border: 1px solid #06152B;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+
+.box-container main .contact .form .form-contact .field{
+    margin-bottom: 24px;
+}
+
+.box-container main .contact .form .form-contact .field input{
+    width: 564px;
+}
+
+
+.box-container main .contact .form .form-contact .block-float{
+    display: flex;
+}
+
+.box-container main .contact .form .form-contact .block-float .field.email{
+    width: 280px;
+}
+
+.box-container main .contact .form .form-contact .block-float .field.email input{
+    width: 262px;
+}
+
+.box-container main .contact .form .form-contact .block-float .field.phone{
+    margin-left: 20px;
+    width: 280px;
+}
+
+.box-container main .contact .form .form-contact .block-float .field.phone input{    
+    width: 262px;
+}
+
+.box-container main .contact .form .form-contact .button-form{
+    width: 580px;
+    height: 52px;
+    background: #4AC959;
+    border: 0;
+    border-radius: 4px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.box-container footer{
+    background: #000000;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-container footer:before{
+    content: '';
+    position: absolute;
+    border-bottom: 50px solid rgb(0, 0, 0);
+    border-left: 1440px solid transparent;
+    top: -50px;
+}
+
+.box-container footer .diagonal-box-footer{
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.box-container footer .diagonal-box-footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box-container footer .diagonal-box-footer p.e-mail{
+    padding-top: 15px;
+}
+
+.box-container footer .diagonal-box-footer p.rights{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.box-container footer .diagonal-box-footer img.img-footer{
+    padding-top: 27px;
+}
