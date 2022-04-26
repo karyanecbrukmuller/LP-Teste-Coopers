@@ -218,6 +218,7 @@ body .box-container{
 }
 
 .box-container main .good-things{
+    display: block;
     height: 700px;
     background: url("../images/background-good-things.svg") 140px 0px no-repeat;
 }
@@ -318,6 +319,12 @@ body .box-container{
     margin-right: 20px;
 }
 
+
+.box-container main .good-things-responsive{
+    display: none;
+    height: 700px;
+}
+
 .box-container main .contact{
     height: 810px;
 }
@@ -410,7 +417,6 @@ body .box-container{
 .box-container main .contact .form .form-contact .field input{
     width: 564px;
 }
-
 
 .box-container main .contact .form .form-contact .block-float{
     display: flex;
