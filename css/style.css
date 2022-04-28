@@ -17,11 +17,12 @@ body .box-container{
 .box-container header section .flex-container{
     display: flex; 
     height: 758px;
-    padding-left: 80px; 
+    position: relative;
 }
 
 .box-container header section .flex-container .flex-item.left{
     width: 50%;
+    padding-left: 80px; 
     margin-top: 54px;
 }
 
@@ -90,8 +91,8 @@ body .box-container{
     position: absolute;
     /*position: fixed;*/
     z-index: 1000;
-    top: 688px;
-    left: 941px;
+    left: 708px;
+    bottom: 30px;
 }
 
 .box-container main .principal{
@@ -102,7 +103,7 @@ body .box-container{
     color: #ffffff;
 }
 
-.box-container main .principal .diagonal-box .content-box h2{
+.box-container main .principal .diagonal-box h2{
     width: 302px;    
     margin-bottom: 0;
     font-weight: 600;
@@ -114,7 +115,7 @@ body .box-container{
     padding: auto;
 }
 
-.box-container main .principal .diagonal-box .content-box p{
+.box-container main .principal .diagonal-box p{
     width: 600px;
     font-weight: 400;
     font-size: 24px;
@@ -136,12 +137,12 @@ body .box-container{
 
 .box-container main .flex-container-plans .plan{
     width: 380px;
-    height: 621px;
+    height: 591px;
     position: relative;
     text-align: center;
     box-shadow: 0px 4px 60px 0px #42424233;
     border-top: 20px solid #4AC959;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .box-container main .flex-container-plans .plan.basic{
@@ -353,7 +354,7 @@ body .box-container{
     width: 166px;
     height: 23px;
     background: #4AC959;
-    margin-left: -140px;
+    margin-right: 150px;
 }
 
 .box-container main .contact .form .form-information{
@@ -366,7 +367,6 @@ body .box-container{
 .box-container main .contact .form .form-information .submit{
     padding-left: 24px;
     width: 166px;
-    height: 58px;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-size: 24px;
@@ -392,6 +392,7 @@ body .box-container{
     border-radius: 4px;
     margin-top: 8px;
     font-family: 'Montserrat', sans-serif;
+    color: #9A9A9A;
     font-size: 16px;
     font-weight: 400;
     padding-left: 16px;
@@ -440,7 +441,7 @@ body .box-container{
 }
 
 .box-container main .contact .form .form-contact .button-form{
-    width: 580px;
+    width: 100%;
     height: 52px;
     background: #4AC959;
     border: 0;
@@ -452,6 +453,7 @@ body .box-container{
 }
 
 .box-container footer{
+    min-height: 200px;
     background: #000000;
     position: relative;
     display: flex;
@@ -462,14 +464,16 @@ body .box-container{
 .box-container footer:before{
     content: '';
     position: absolute;
-    border-bottom: 50px solid rgb(0, 0, 0);
+    border-bottom: 40px solid rgb(0, 0, 0);
     border-left: 1440px solid transparent;
-    top: -50px;
+    top: -40px;
 }
 
 .box-container footer .diagonal-box-footer{
-    padding-top: 25px;
+    width: 50%;
+    padding-top: 20px;
     color: #FFFFFF;
+    position: relative;
 }
 
 .box-container footer .diagonal-box-footer p{
@@ -479,7 +483,7 @@ body .box-container{
 }
 
 .box-container footer .diagonal-box-footer p.e-mail{
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .box-container footer .diagonal-box-footer p.rights{
@@ -489,5 +493,7 @@ body .box-container{
 }
 
 .box-container footer .diagonal-box-footer img.img-footer{
-    padding-top: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 105px;
 }
