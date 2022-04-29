@@ -15,7 +15,7 @@ and (max-device-width : 979px) {
 
     .box-container header section .flex-container .flex-item.left{
         width: 50% !important;
-        margin-top: 30px;
+        padding-top: 30px;
         padding-left: 30px;
     }
 

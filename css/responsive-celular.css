@@ -13,7 +13,7 @@ and (max-device-width : 667px) {
 
     .box-container header section .flex-container .flex-item.left{
         width: 100% !important;
-        margin-top: 15px;
+        padding-top: 15px;
         padding-right: 15px;
         padding-left: 0;
     }

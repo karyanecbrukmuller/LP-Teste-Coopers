@@ -23,7 +23,7 @@ body .box-container{
 .box-container header section .flex-container .flex-item.left{
     width: 50%;
     padding-left: 80px; 
-    margin-top: 54px;
+    padding-top: 54px;
 }
 
 .box-container header section .flex-container .flex-item.left .web-site-description{
@@ -103,13 +103,16 @@ body .box-container{
     color: #ffffff;
 }
 
+.box-container main .principal .diagonal-box{
+    transform: skewY(3deg);
+}
+
 .box-container main .principal .diagonal-box h2{
     width: 302px;    
     margin-bottom: 0;
     font-weight: 600;
     font-size: 60px;
     padding-top: 80px;
-    transform: skewY(3deg);
     border-bottom: 4px solid #4AC959;
     margin: auto;
     padding: auto;
@@ -120,7 +123,6 @@ body .box-container{
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-    transform: skewY(4deg);
     padding-top: 45px;
     margin: auto;
     padding: auto;

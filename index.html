@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="css/responsive-tablet.css">
 </head>
 <body>
-    <div class="box-container">
+    <div class="box-container"><!-- container-bloco externo responsável por limitar o conteúdo --> 
         <header>
             <section>
-                <div class="flex-container">
+                <div class="flex-container"><!-- div responsável pelo container (flex) lado direito/lado esquerdo -->
                     <div class="flex-item left">
                         <a href="/"> 
                             <img src="images/Logo.svg" alt="Logo da Coopers">
@@ -37,17 +37,17 @@
                     <div class="flex-item right">
                         <img src="images/imagem-mulher.png" alt="Imagem de uma mulher"/>
                     </div>
-                    <div class="icone-scroll">
+                    <div class="icone-scroll"><!-- div responsável pela imagem seta de scrool -->
                         <a href="/">
                             <img src="images/icon-scroll.svg" alt="Icone de scroll">
                         </a>    
                     </div>
-                </div>
+                </div><!-- END: .flex-container -->  
             </section>
         </header>
         <main>
-            <section class="principal">
-                <div class="diagonal-box">
+            <section class="principal"> <!-- responsável por rotacionar o bloco -->  
+                <div class="diagonal-box"><!-- responsável por alinhar novamente -->  
                     <h2>
                         To-do List
                     </h2>
@@ -56,7 +56,7 @@
                     </p>
                 </div>
             </section>
-            <section class="flex-container-plans">
+            <section class="flex-container-plans"><!-- seção responsável pelos planos -->  
                 <div class="plan basic">
                     <div class="description-plan">
                         <span class="value">
@@ -91,7 +91,7 @@
                     <div class="button">
                         <a href="/">get in touch</a>
                     </div>   
-                </div>
+                </div><!-- END: .plan.basic -->
                 <div class="plan pro">          
                     <div class="description-plan">
                         <span class="value">
@@ -126,17 +126,17 @@
                     <div class="button">
                         <a href="/">get in touch</a>
                     </div>    
-                </div>
-            </section>
-            <section class="good-things">
+                </div><!-- END: .plan.pro -->
+            </section><!-- END: .flex-container-plans -->  
+            <section class="good-things"><!-- seção responsável pelo carrousel (DESKTOP) --> 
                 <div class="title">
                     <h2><b>good things</b></h2>
                 </div>
                 <div class="carousel carousel-slider center">
-                    <div class="carousel-item white-text" href="#one!">
+                    <div class="carousel-item white-text" href="#one!"><!-- div responsável pela PRIMEIRA parte(página) do carrousel --> 
                         <div class="flex-container-carousel">
-                            <div class="container-good-things">
-                                <div class="block first">
+                            <div class="container-good-things"><!-- div responsável pelo primeiro bloco do carrousel -->
+                                <div class="block first"> 
                                     <div>
                                         <img src="images/first-block-good-things.png" class="img" alt="imagem homem organize seu trabalho"/>
                                     </div>                                        
@@ -150,7 +150,7 @@
                                     </div>          
                                 </div>
                             </div>   
-                            <div class="container-good-things"> 
+                            <div class="container-good-things"><!-- div responsável pelo segundo bloco do carrousel -->
                                 <div class="block second"> 
                                     <div>
                                         <img src="images/second-block-good-things.png" class="img" alt="imagem atividade concluida"/>
@@ -165,7 +165,7 @@
                                     </div>    
                                 </div>
                             </div>  
-                            <div class="container-good-things">   
+                            <div class="container-good-things"><!-- div responsável pelo terceiro bloco do carrousel -->  
                                 <div class="block third"> 
                                     <div>
                                         <img src="images/third-block-good-things.png" class="img" alt="imagem lista coisa e lista desejos"/>
@@ -181,10 +181,10 @@
                                 </div>
                             </div>    
                         </div>    
-                    </div>
-                    <div class="carousel-item white-text" href="#two!">
+                    </div><!-- END: carousel-item.white-text #one -->  
+                    <div class="carousel-item white-text" href="#two!"><!-- div responsável pela SEGUNDA parte(página) do carrousel -->
                         <div class="flex-container-carousel">
-                            <div class="container-good-things">
+                            <div class="container-good-things"><!-- div responsável pelo primeiro bloco do carrousel -->
                                 <div class="block first">
                                     <div>
                                         <img src="images/first-block-good-things.png" class="img" alt="imagem homem organize seu trabalho"/>
@@ -199,7 +199,7 @@
                                     </div>          
                                 </div>
                             </div>   
-                            <div class="container-good-things"> 
+                            <div class="container-good-things"><!-- div responsável pelo segundo bloco do carrousel -->
                                 <div class="block second"> 
                                     <div>
                                         <img src="images/second-block-good-things.png" class="img" alt="imagem atividade concluida"/>
@@ -214,7 +214,7 @@
                                     </div>    
                                 </div>
                             </div>  
-                            <div class="container-good-things">   
+                            <div class="container-good-things"><!-- div responsável pelo terceiro bloco do carrousel --> 
                                 <div class="block third"> 
                                     <div>
                                         <img src="images/third-block-good-things.png" class="img" alt="imagem lista coisa e lista desejos"/>
@@ -230,10 +230,10 @@
                                 </div>
                             </div>    
                         </div>    
-                    </div> 
-                    <div class="carousel-item white-text" href="#three!">
+                    </div><!-- END: carousel-item.white-text #two -->
+                    <div class="carousel-item white-text" href="#three!"><!-- div responsável pela TERCEIRA parte(página) do carrousel -->
                         <div class="flex-container-carousel">
-                            <div class="container-good-things">
+                            <div class="container-good-things"><!-- div responsável pelo primeiro bloco do carrousel --> 
                                 <div class="block first">
                                     <div>
                                         <img src="images/first-block-good-things.png" class="img" alt="imagem homem organize seu trabalho"/>
@@ -248,7 +248,7 @@
                                     </div>          
                                 </div>
                             </div>   
-                            <div class="container-good-things"> 
+                            <div class="container-good-things"><!-- div responsável pelo segundo bloco do carrousel -->  
                                 <div class="block second"> 
                                     <div>
                                         <img src="images/second-block-good-things.png" class="img" alt="imagem atividade concluida"/>
@@ -263,7 +263,7 @@
                                     </div>    
                                 </div>
                             </div>  
-                            <div class="container-good-things">   
+                            <div class="container-good-things"><!-- div responsável pelo terceiro bloco do carrousel -->
                                 <div class="block third"> 
                                     <div>
                                         <img src="images/third-block-good-things.png" class="img" alt="imagem lista coisa e lista desejos"/>
@@ -279,16 +279,16 @@
                                 </div>
                             </div>   
                         </div>    
-                    </div> 
+                    </div><!-- END: carousel-item.white-text #three -->
                 </div>     
-            </section>
-            <section class="good-things-responsive">
+            </section><!-- END: .good-things (DESKTOP) --> 
+            <section class="good-things-responsive"><!-- seção responsável pelo carrousel (RESPONSIVE) --> 
                 <div class="background-green">
                     <div class="title">
                         <h2><b>good things</b></h2>
                     </div>
                     <div class="carousel carousel-slider center">
-                        <div class="carousel-item white-text" href="#one!">
+                        <div class="carousel-item white-text" href="#one!"><!-- div responsável pela PRIMEIRA parte(página) do carrousel --> 
                             <div class="flex-container-carousel">
                                 <div class="container-good-things">
                                     <div class="block first">
@@ -306,8 +306,8 @@
                                     </div>
                                 </div>   
                             </div>    
-                        </div>
-                        <div class="carousel-item white-text" href="#two!">
+                        </div><!-- END: carousel-item.white-text #one --> 
+                        <div class="carousel-item white-text" href="#two!"><!-- div responsável pela SEGUNDA parte(página) do carrousel -->
                             <div class="flex-container-carousel">
                                 <div class="container-good-things"> 
                                     <div class="block second"> 
@@ -325,8 +325,8 @@
                                     </div>
                                 </div>  
                             </div>    
-                        </div> 
-                        <div class="carousel-item white-text" href="#three!">
+                        </div><!-- END: carousel-item.white-text #two --> 
+                        <div class="carousel-item white-text" href="#three!"><!-- div responsável pela TERCEIRA parte(página) do carrousel -->
                             <div class="flex-container-carousel">
                                 <div class="container-good-things">   
                                     <div class="block third"> 
@@ -344,11 +344,11 @@
                                     </div>
                                 </div>   
                             </div>    
-                        </div> 
+                        </div><!-- END: carousel-item.white-text #two --> 
                     </div> 
                 </div>
-            </section>
-            <section class="contact">
+            </section><!-- END: .good-things (RESPONSIVE) -->
+            <section class="contact"><!-- seção responsável pelo formulário -->
                 <div class="form">
                     <img src="images/image-form.png" class="img-form" alt="imagem mulher contact"/>
                     <div class="background-green"></div>
@@ -365,7 +365,7 @@
                             <label for="name">Your name</label>
                             <input type="text" placeholder="type your name here..." name="name" id="name">                                
                         </div>
-                        <div class="block-float">
+                        <div class="block-float"><!-- div responsável pelo container (flex) e-mail/telephone -->
                             <div class="field email">
                                 <label for="email">Email*</label>
                                 <input type="email" placeholder="example@example.com" name="email" id="email" required> 
@@ -383,8 +383,8 @@
                             SEND NOW
                         </button>
                     </form>
-                </div>
-            </section>
+                </div><!-- END: .form -->
+            </section><!-- END: .contact -->
         </main>
         <footer>
             <div class="diagonal-box-footer">
@@ -400,10 +400,10 @@
                 <img src="images/background-green-footer.svg" class="img-footer">
             </div>
         </footer>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <!-- Compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-    </div>    
+    </div><!-- END: .box-container -->  
 </body>
 </html>
