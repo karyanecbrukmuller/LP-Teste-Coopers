@@ -3,7 +3,7 @@
 
 <h2><b>Sobre o projeto</b></h2>
 
-<p>O projeto basicamente e uma LP desenvolvida em HTML5, CSS3, JavaScript e Materialize.</p> 
+<p>O projeto basicamente é uma LP desenvolvida em HTML5, CSS3, JavaScript e Materialize.</p> 
 <br />
 
 <h2><b>Descritivo do desenvolvimento</b></h2>
